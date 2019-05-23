@@ -2,9 +2,9 @@
 #include<ctype.h>
 void main()
 {
-    int n;
-    scanf("%d",&n);
-    if(!isdigit(n))
+    int a;
+    scanf("%d",&a);
+    if(!isdigit(a))
     {
         printf("yes");
     }
