@@ -3,16 +3,16 @@
 #include <string.h>
 int main()
 {
-    char a[500];
-    int i,n,s=0;
+    char a[200];
+    int i,n,ss=0;
     gets(a);
     n=strlen(a);
     for(i=0;i<n;i++)
         {
     if(isdigit(a[i]))
          {
-            s++;
+            ss++;
         }
     }
-    printf("%d",s);
+    printf("%d",ss);
 }
