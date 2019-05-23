@@ -2,14 +2,14 @@
 
 int main()
 {
-   int a,b,c,i,j,j;
+   int a,b,c,i,j,k;
    scanf("%d%d",&a,&i);
    scanf("%d%d",&b,&j);
    a=a-b;
    i=i-j;
    c=abs(a);
-   j=abs(i);
-   printf("%d %d",c,j);
+   z=abs(i);
+   printf("%d %d",c,k);
 
     return 0;
 }
